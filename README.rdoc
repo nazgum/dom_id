@@ -4,7 +4,7 @@ Simple hack to enable dom_id in ActiveRecord::Base.  To use add the following to
 
 gem 'dom_id', :git => 'git@github.com:nazgum/dom_id.git'
 
-=example
+= Example
 
 Rails provides you with the helper dom_id which can be used in views.  This gem also enables dom_id for the controller, and your console, so when in your view you do something like:
 
