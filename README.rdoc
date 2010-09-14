@@ -1,6 +1,8 @@
 = dom_id
 
-Simple hack to enable dom_id in ActiveRecord::Base
+Simple hack to enable dom_id in ActiveRecord::Base.  To use add the following to your Gemfile:
+
+gem 'dom_id', :git => 'git@github.com:nazgum/dom_id.git'
 
 =example
 
