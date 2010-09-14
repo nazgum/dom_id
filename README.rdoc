@@ -1,6 +1,16 @@
 = dom_id
 
-Description goes here.
+Simple hack to enable dom_id in ActiveRecord::Base
+
+=example
+
+Rails provides you with the helper dom_id which can be used in views.  This gem also enables dom_id for the controller, and your console, so when in your view you do something like:
+
+<% cache @user.dom_id(:name) -%>
+
+You can also in the controller do:
+
+expire_fragment @user.dom_id(:name)
 
 == Note on Patches/Pull Requests
  
