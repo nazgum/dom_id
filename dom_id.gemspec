@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nazgum"]
   s.date = %q{2010-09-13}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Simple rails hack to enable dom_id for ActiveRecord::Base}
   s.email = %q{nazgum@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "dom_id.gemspec",
      "lib/dom_id.rb",
      "test/helper.rb",
      "test/test_dom_id.rb"
@@ -31,7 +32,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Simple rails hack to enable dom_id for ActiveRecord::Base}
   s.test_files = [
     "test/test_dom_id.rb",
      "test/helper.rb"
